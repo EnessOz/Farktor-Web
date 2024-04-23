@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.headerContainerClass {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 40px;
+}
+
+.headerLogoSide {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerMenuSide nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.headerMenuSide a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.headerMenuSide p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    color: black;
+
+}
+
+.bannerContainerClass {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(1, 1, 177);
+    background-image: url('../public/photos/Image_71@2x.png');
+    background-size: cover;
+}
+
+.stickyElementClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 160px;
+    background-color: #ececec;
+    top: 0;
+
+}
+
+.bannerInsideClass {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px;
+
+}
+
+.headingHrefClass {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100px;
+    gap: 5px;
+
+
+}
+
+.clickableNumberIcons {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid blue;
+
+}
+
+.clickableNumberIcons span {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: blue;
+
+
+}
+
+.clickableContainerClass a {
+    color: black;
+
+}
+
+.clickableContainerClass {
+    display: flex;
+    gap: 5px;
+
+}
+
+.headingsContainerClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.publicityClass {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 50px;
+    padding: 3px;
+
+
+}
+
+
+.topBannerDiv {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 40px;
+    background-color: rgb(2, 2, 216);
+    align-items: center;
+    top: 0;
+}
+
+.topBannerLeft {
+    display: flex;
+}
+
+.topBannerRight {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.descriptionClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 40px;
+}
+
+.descriptionChildClass {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+
+}
+
+.paragraphContainerClass {
+    text-align: justify;
+}
+
+.normalBtnBlue {
+    background: rgb(8, 0, 255);
+    background: linear-gradient(0deg, rgba(76, 70, 247, 1) 13%, rgba(39, 32, 253, 1) 59%, rgba(73, 67, 255, 1) 100%);
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.bannerInsideLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.normalBtnOrange {
+    background: rgb(252, 119, 9);
+    background: linear-gradient(0deg, rgba(252, 119, 9, 1) 13%, rgba(253, 132, 32, 1) 35%, rgba(246, 168, 104, 1) 61%);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.largerBtnBlue {
+    background-color: blue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: -250px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.sectionContainer {
+    padding-left: 100px;
+}
+
+.sectionContainer p {
+    max-width: 75%;
+}
+
+.sectionContainer h3 {
+    color: rgb(0, 0, 223);
+}
+
+.oneAndTwo,
+.threeAndFour,
+.fiveAndSix,
+.sevenAndEight,
+.nineAndTen,
+.elevenAndTwelve,
+.thirTeenAndFourTeen,
+.fiveTeenAndSixTeen,
+.sevenTeenAndEightTeen,
+.nineTeenAndTwenty,
+.twentyOneTeenAndTwentyTwo {
+    display: flex;
+    padding-top: 15px;
+}
+
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour,
+.sectionFive,
+.sectionSix,
+.sectionSeven,
+.sectionEight,
+.sectionNine,
+.sectionTen,
+.sectionEleven,
+.sectionTwelve,
+.sectionThirTeen,
+.sectionFourTeen,
+.sectionFiveTeen,
+.sectionSixTeen,
+.sectionSevenTeen,
+.sectionEightTeen,
+.sectionNineTeen,
+.sectionTwenty,
+.sectionTwentyOne,
+.sectionTwentyTwo {
+    width: 50%;
+}
+
+.sectionFive span {
+    color: blue;
+    font-weight: bold;
+}
+
+.sectionFive p,
+.sectionSeven p,
+.sectionTen p,
+.sectionEleven p,
+.sectionFourTeen p,
+.sectionSevenTeen p,
+.sectionTwenty p,
+.sectionTwentyOne p {
+    padding-top: 30px;
+}
+
+.contactClass {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.contactClass p {
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.contactSectorOne,
+.contactSectorTwo {
+    display: flex;
+    gap: 10px;
+
+}
+
+.contactSectorThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactClass input {
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+.clickDropDownContainer button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.clickDropDownContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.clickDropHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickDropDownButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.dropButton {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: white;
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.sloganBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../public/photos/d0b797ae79350e87f48189d9572422c7.png');
+    height: 400px;
+    width: 100%;
+    gap: 10px;
+}
+
+.footerClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.footerLeft,
+.footerCenter,
+.footerRight {
+    display: flex;
+    gap: 20px;
+}
+
+.cssMobile {
+    display: none;
+}
+
+@media (max-width: 600px),
+(max-height: 600px) {
+    .cssWeb {
+        display: none;
+    }
+
+    .cssMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        padding: 10px;
+        gap: 10px;
+        font-family: "Times New Roman", Times, serif;
+       
+    }
+
+    .cssMobile button {
+        border: none;
+        font-size: 70px;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+
+    }
+
+    .cssMobile h4 {
+        font-family: 'Brush Script MT', cursive;
+        font-weight: lighter;
+    }
+}

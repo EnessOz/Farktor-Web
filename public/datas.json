@@ -1,0 +1,35 @@
+{
+    "buttons" : [
+        {"name" : "Akıllı Depo Otomasyonu"},
+        {"name": "Envanter ve Stok Yönetimi"},
+        {"name": "Hızlı ve Doğru Sipariş İşleme"},
+        {"name" : "Depo Alanının Verimli Kullanımı"},
+        {"name": "Müşteri Hizmetleri ve Farktör CRM Platformu"},
+        {"name": "RFID veya Akıllı Etiket Teknolojisi"},
+        {"name" : "Kapsamlı Adresleme ve Ürün Tedarik"},
+        {"name": "Entegre Fatura, Kargo ve İade İşlemler"},
+        {"name": "Gelişmiş Stüdyo Yönetimi"},
+        {"name" : "Kapsamlı Muhasebe ve Finans Yönetimi"},
+        {"name": "Çalışan Performans Takibi"},
+        {"name": "Müşteri Memnuniyeti"},
+        {"name" : "Omni-Channel Hizmetler"},
+        {"name": "Tüm Departmanların Otomasyon İçinde İletişimi"},
+        {"name": "Kapsamlı Raporlama ve Analizler"}
+        
+    ],
+    "clickDropButton": [
+        {"name": "Farktör kimdir?"},
+        {"name": "Farktör’ün müşteri hizmetleri nasıl çalışır?"},
+        {"name": "Farktör ne işe yarar?"},
+        {"name": "Farktör güvenilir mi?"},
+        {"name": "Farktör’ün müşteri tabanı nasıl oluşuyor?"},
+        {"name": "Hangi hizmetleri sunuyorsunuz?"},
+        {"name": "Farktör e-ticaret nedir?"},
+        {"name": "Farktör’ün e-ihracat nedir?"},
+        {"name": "Farktör ile bir web sitesi nasıl tasarlayabilirim?"},
+        {"name": "Farktör’ün reklam ve pazarlama hizmetleri nelerdir?"},
+        {"name": "Farktör’ün e-ticaret danışmanlık hizmetleri nelerdir?"},
+        {"name": "Farktör native uygulama nedir ?"}
+
+    ]
+}
